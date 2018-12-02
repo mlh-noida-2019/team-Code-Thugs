@@ -1,5 +1,6 @@
 package com.example.shivendra.talbuzz2;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -15,6 +16,7 @@ import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -82,16 +84,33 @@ public class MainActivity extends AppCompatActivity
 
         if (id == R.id.nav_upload) {
             // Handle the camera action
+            Intent intent = new Intent(MainActivity.this, UploadFragment.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_gallery) {
+        } else if (id == R.id.nav_music) {
 
-        } else if (id == R.id.nav_slideshow) {
+            Intent intent = new Intent(MainActivity.this, MusicFragment.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_photography) {
 
-        } else if (id == R.id.nav_share) {
+            Intent intent = new Intent(MainActivity.this, PhotographyFragment.class);
+            startActivity(intent);
 
-        } else if (id == R.id.nav_send) {
+        } else if (id == R.id.nav_dance) {
+
+            Intent intent = new Intent(MainActivity.this, DanceFragment.class);
+            startActivity(intent);
+
+        } else if (id == R.id.nav_modeling) {
+
+            Intent intent = new Intent(MainActivity.this, modelingFragment.class);
+            startActivity(intent);
+
+        } else if (id == R.id.nav_meme) {
+
+            Intent intent = new Intent(MainActivity.this, UploadFragment.class);
+            startActivity(intent);
 
         }
 

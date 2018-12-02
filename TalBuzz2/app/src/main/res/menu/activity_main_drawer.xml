@@ -9,17 +9,25 @@
             android:icon="@drawable/ic_menu_camera"
             android:title="Upload" />
         <item
-            android:id="@+id/nav_gallery"
+            android:id="@+id/nav_music"
             android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:title="Music" />
         <item
-            android:id="@+id/nav_slideshow"
+            android:id="@+id/nav_photography"
             android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:title="Photography" />
         <item
-            android:id="@+id/nav_manage"
+            android:id="@+id/nav_dance"
             android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+            android:title="Dance" />
+        <item
+            android:id="@+id/nav_modeling"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Modeling" />
+        <item
+            android:id="@+id/nav_meme"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Meme" />
     </group>
 
     <item android:title="Communicate">
