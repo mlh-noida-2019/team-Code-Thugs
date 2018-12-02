@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "798747880004",
+    "firebase_url": "https://talbuzz2-36f52.firebaseio.com",
+    "project_id": "talbuzz2-36f52",
+    "storage_bucket": "talbuzz2-36f52.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:798747880004:android:33fb8c6f2d3e6f52",
+        "android_client_info": {
+          "package_name": "com.example.shivendra.talbuzz2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "798747880004-iipl21lh41955tjro1qli032be2rtkgv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.shivendra.talbuzz2",
+            "certificate_hash": "5ca04fc9f38240c05d645576706fe7471040a8b4"
+          }
+        },
+        {
+          "client_id": "798747880004-h2q3r2aduusunrcbtltq24d1joc5ltd4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsGFybfMRNx7SVQan092qV7dODfBcHhKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "798747880004-h2q3r2aduusunrcbtltq24d1joc5ltd4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
